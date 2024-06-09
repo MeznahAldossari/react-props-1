@@ -1,0 +1,35 @@
+
+
+@media only screen and (max-width: 600px) {
+
+    .footer{
+ 
+        width: 100vw;
+        background-color: rgb(16, 16, 120);
+        height: 20vh;
+
+        position: absolute; 
+        margin-top: 400%; 
+        left: 0; 
+        z-index: 10;
+       
+       }
+       .pFooter{
+       text-align: center;
+       padding-top: 10px;
+       }
+       
+}
+
+@media only screen and (min-width: 601px) {
+    .footer{
+ 
+    width: 100vw;
+    background-color: rgb(16, 16, 120);
+    height: 10vh;
+   
+   }
+   .pFooter{
+   text-align: center;
+   padding-top: 20px;
+   }}

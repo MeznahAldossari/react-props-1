@@ -1,0 +1,19 @@
+
+@media only screen and (max-width: 600px) {
+  .MainCards{
+  width: 100vw;
+  height: 120vh;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin-bottom: 80px;
+
+}}
+@media only screen and (min-width: 601px) {
+  .MainCards{
+  width: 100vw;
+  height: 120vh;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-bottom: 80px;
+
+}}
